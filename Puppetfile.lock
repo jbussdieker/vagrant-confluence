@@ -1,0 +1,18 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-java (1.2.0)
+      puppetlabs-stdlib (>= 2.4.0)
+    puppetlabs-stdlib (4.5.0)
+
+GIT
+  remote: https://github.com/jbussdieker/puppet-confluence.git
+  ref: master
+  sha: a2c3ca65d4eaec0951fc26bd7f2a165ae906e1a7
+  specs:
+    jbussdieker-confluence (0.0.1)
+      puppetlabs-java (>= 0.0.1)
+
+DEPENDENCIES
+  jbussdieker-confluence (>= 0)
+
